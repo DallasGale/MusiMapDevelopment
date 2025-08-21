@@ -1,0 +1,11 @@
+.cell {
+  padding: var(--space-18);
+}
+
+.row {
+  border-bottom: none;
+}
+
+.odd {
+  background-color: var(--background);
+}

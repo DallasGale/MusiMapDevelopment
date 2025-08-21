@@ -1,0 +1,209 @@
+@import "../styles/typography.css";
+
+:root {
+  --font-family: "Innovator", sans-serif;
+  --ff-extra-light: 100;
+  --ff-light: 200;
+  --ff-regular: 300;
+  --ff-semi: 400;
+  --ff-bold: 500;
+  --ff-extra-bold: 600;
+
+  /* Colors */
+  --gradient-color-1: #ffcc00;
+  --gradient-color-2: #ff4024;
+  --gradient-color-3: #b151db;
+  --gradient-color-4: #017aff;
+  --gradient-color-5: #32acc7;
+  --gradient-color-6: #4bc345;
+  --gradient-color-7: #ff9500;
+  --gradient-blur: 60px;
+
+  --color-light-grey: #c7c7c7;
+  --color-grey: #8c8c8c;
+  --color-black: #000000;
+  --color-dark-grey: #1b1b1b;
+  --color-white: #ffffff;
+  --button-primary-bg: rgba(255, 255, 255, 0.1);
+  --button-primary-border: rgba(255, 255, 255, 1);
+  --button-text-active-background: rgba(255, 255, 255, 1);
+  --button-text-hover-background: rgba(0, 0, 0, 1);
+  --button-text-active-color: #000000;
+  --button-text-hover-color: #ffffff;
+
+  --background: #000000;
+  --foreground: #ffffff;
+  --text-color: #7c7c7c;
+  --text-color-highlight: hsl(0, 0%, 100%);
+  --footer-background: rgba(27, 27, 27, 1);
+  --panel-background: rgba(27, 27, 27, 0.4);
+  --panel-border: rgba(255, 255, 255, 1);
+  --card-background: rgba(255, 255, 255, 0.06);
+  --card-border: 1px solid rgba(255, 255, 255, 0.1);
+  --overlay-background: rgba(0, 0, 0, 0.9);
+
+  /* Paddings */
+  --site-padding: 20px;
+
+  /* Radius */
+  --radius-2: 2px;
+  --radius-7: 7px;
+  --radius-10: 10px;
+
+  /* Spacings */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-18: 18px;
+  --space-20: 20px;
+  --space-24: 26px;
+  --space-26: 26px;
+  --space-40: 40px;
+  --space-60: 60px;
+  --space-80: 80px;
+  --space-100: 100px;
+  --space-180: 180px;
+
+  /* Font Sizes */
+  --font-size-20: 20px;
+
+  /* Table Sizes */
+  --min-table-size: 1600px;
+  --min-table-height: 498px;
+
+  /* Page Sizes */
+  --max-page-content: 1920px;
+  --above-fold-view-top-margin: 200px;
+
+  /* Transitions */
+  --button-transition: all 0.18s ease-in-out;
+
+  /* View specific  */
+  --max-home-hero-width: 1000px;
+  --max-home-hero-words-width: 800px;
+
+  --analysis-left-column-width: 390px;
+  --analysis-max-column-width: 332px;
+  --analysis-column-gutter: 8px;
+  --analysis-max-width: 1200px;
+
+  --emotion-max-width: 1247px;
+  --emotion-max-text-width: 833px;
+
+  --upload-input-height: 80px;
+  --upload-input-right-pd: 205px;
+  --upload-placeholder-fs: 16px;
+}
+
+#storybook-root {
+  padding: 0 !important;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  /* font-family: var(--font-family); */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  /* padding: 0; */
+  /* margin: 0; */
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+main {
+  /* padding: 0 var(--space-24); */
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding-left: 0;
+}
+
+.page-content {
+  max-width: var(--max-page-content);
+  margin-inline: auto;
+  padding: var(--space-40);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* #storybook-root {
+  width: 100%;
+} */
+
+@keyframes rotate {
+  0% {
+    transform: scale(20) rotate(0deg);
+    transform-origin: center center;
+  }
+  100% {
+    transform: scale(20) rotate(360deg);
+    transform-origin: center center;
+  }
+}
+.gradient-container {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+}
+.gradient {
+  animation: rotate 10s forwards infinite linear;
+  transform-origin: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: conic-gradient(
+    var(--gradient-color-1),
+    var(--gradient-color-2),
+    var(--gradient-color-3),
+    var(--gradient-color-4),
+    var(--gradient-color-5),
+    var(--gradient-color-6),
+    var(--gradient-color-7),
+    var(--gradient-color-1)
+  );
+}
+
+.blur {
+  background-color: var(--background);
+  width: 100%;
+  height: 100%;
+  filter: blur(var(--gradient-blur));
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}

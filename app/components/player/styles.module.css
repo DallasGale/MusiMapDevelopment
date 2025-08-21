@@ -1,0 +1,22 @@
+.figure {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+.figcaption {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.audio {
+  width: 100%;
+}
+
+.audio {
+  background-color: transparent;
+}

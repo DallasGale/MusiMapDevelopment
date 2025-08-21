@@ -1,0 +1,23 @@
+.clip {
+  height: 600px;
+  overflow: hidden;
+  padding: var(--space-60);
+  box-sizing: border-box;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.wheel {
+  animation: rotate 120s linear forwards infinite;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+.footer {
+  background: var(--footer-background);
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-80);
+  width: 100%;
+  justify-content: space-between;
+  padding: var(--space-40);
+}
+
+.footerItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--space-80);
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100%;
+  min-width: 200px;
+  max-width: 400px;
+  display: block;
+  img {
+    width: 100%;
+  }
+}

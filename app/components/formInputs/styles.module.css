@@ -1,0 +1,8 @@
+.input {
+  background-color: var(--color-dark-grey);
+  border: var(--card-border);
+}
+
+.label {
+  margin-bottom: var(--space-12);
+}

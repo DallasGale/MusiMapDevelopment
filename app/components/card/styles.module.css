@@ -1,0 +1,12 @@
+.root {
+  border: var(--card-border);
+  background: var(--card-background);
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}

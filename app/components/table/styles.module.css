@@ -1,0 +1,17 @@
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-26);
+  overflow: hidden;
+  width: 100%;
+}
+
+.tableWrapper {
+  background-color: var(--card-background);
+  border-radius: var(--radius-7);
+  border: var(--card-border);
+}
+
+.paginationWrapper {
+  padding: var(--space-18);
+}

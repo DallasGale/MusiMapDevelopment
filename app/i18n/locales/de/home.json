@@ -1,0 +1,9 @@
+{
+  "text": {
+    "headline": "Dit is wat je luistert",
+    "paragraph": "Upload een link of nummer (onder 10MB en 10 minuten) om de stemming, het genre, de gebruikscase, BPM, toonsoort en meer te analyseren.",
+    "upload": {
+      "placeholder": "Plak een songlink (bijv. Spotify, Apple Music, YouTube)"
+    }
+  }
+}

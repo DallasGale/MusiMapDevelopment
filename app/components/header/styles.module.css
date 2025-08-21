@@ -1,0 +1,33 @@
+.header {
+  background: var(--panel-background);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-26);
+  padding: var(--space-24);
+  border-radius: var(--radius-10);
+  margin-bottom: var(--space-24);
+  position: fixed;
+  top: var(--space-26);
+  width: calc(100% - (var(--space-26) * 2));
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  z-index: 1;
+  backdrop-filter: blur(4px);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: var(--space-26);
+  justify-content: flex-end;
+}
+
+.secondaryNav {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-26);
+}

@@ -1,0 +1,9 @@
+{
+  "text": {
+    "headline": "Esto es lo que escuchas",
+    "paragraph": "Sube un enlace o canción (menos de 10MB y 10 minutos) para analizar su estado de ánimo, género, caso de uso, BPM, clave y más.",
+    "upload": {
+      "placeholder": "Pega un enlace de canción (ej. Spotify, Apple Music, YouTube)"
+    }
+  }
+}

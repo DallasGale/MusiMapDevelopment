@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Home Page Snaphot renders home page unchanged in dutch 1`] = `
+{
+  "$$typeof": Symbol(react.transitional.element),
+  "_owner": null,
+  "_store": {},
+  "key": null,
+  "props": {
+    "children": "Ontdek een constellatie van klankintelligentie",
+  },
+  "type": "h1",
+}
+`;
+
+exports[`Home Page Snaphot renders home page unchanged in english 1`] = `
+{
+  "$$typeof": Symbol(react.transitional.element),
+  "_owner": null,
+  "_store": {},
+  "key": null,
+  "props": {
+    "children": "Explore a Constellation of Sound Intelligence",
+  },
+  "type": "h1",
+}
+`;
+
+exports[`Home Page Snaphot renders home page unchanged in spanish 1`] = `
+{
+  "$$typeof": Symbol(react.transitional.element),
+  "_owner": null,
+  "_store": {},
+  "key": null,
+  "props": {
+    "children": "Explora una constelación de inteligencia sonora",
+  },
+  "type": "h1",
+}
+`;

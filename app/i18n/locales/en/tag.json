@@ -1,0 +1,41 @@
+{
+  "navItems": [
+    {
+      "label": "Search",
+      "link": "/tag/search"
+    },
+    {
+      "label": "Dashboard",
+      "link": "/tag/dashboard"
+    },
+    {
+      "label": "Catalogs",
+      "link": "/tag/catalogs"
+    },
+    {
+      "label": "Users",
+      "link": "/tag/users"
+    },
+    {
+      "label": "Clients",
+      "link": "/tag/clients"
+    },
+    {
+      "label": "Ingestions",
+      "link": "/tag/ingestions"
+    },
+    {
+      "label": "Ingestion Statistics",
+      "link": "/tag/ingestion-statistics"
+    },
+    {
+      "label": "Statistics",
+      "link": "/tag/statistics"
+    }
+  ],
+  "search": {
+    "tagInput": {
+      "placeholder": "No tags currently selected"
+    }
+  }
+}

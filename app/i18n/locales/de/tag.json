@@ -1,0 +1,41 @@
+{
+  "navItems": [
+    {
+      "label": "Suchen",
+      "link": "/tag/search"
+    },
+    {
+      "label": "Dashboard",
+      "link": "/tag/dashboard"
+    },
+    {
+      "label": "Kataloge",
+      "link": "/tag/catalogs"
+    },
+    {
+      "label": "Benutzer",
+      "link": "/tag/users"
+    },
+    {
+      "label": "Kunden",
+      "link": "/tag/clients"
+    },
+    {
+      "label": "Datenaufnahmen",
+      "link": "/tag/ingestions"
+    },
+    {
+      "label": "Datenaufnahme-Statistiken",
+      "link": "/tag/ingestion-statistics"
+    },
+    {
+      "label": "Statistiken",
+      "link": "/tag/statistics"
+    }
+  ],
+  "search": {
+    "tagInput": {
+      "placeholder": "Momenteel geen tags geselecteerd"
+    }
+  }
+}

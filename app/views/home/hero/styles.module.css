@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 18vh;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-40);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  max-width: var(--max-home-hero-width);
+}
+
+.wordsWrapper {
+  display: flex;
+  max-width: var(--max-home-hero-words-width);
+  flex-direction: column;
+  gap: var(--space-40);
+  align-items: center;
+  justify-content: center;
+}

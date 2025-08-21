@@ -1,0 +1,9 @@
+{
+  "text": {
+    "headline": "This is what you listen to",
+    "paragraph": "Upload a link or song (under 10MB and 10 minutes) to analyze its mood, genre, use case, BPM, key, and more.",
+    "upload": {
+      "placeholder": "Paste a song link (eg. Spotify, Apple Music, YouTube)"
+    }
+  }
+}

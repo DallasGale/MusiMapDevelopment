@@ -1,0 +1,36 @@
+{
+  "navItems": {
+    "primary": [
+      {
+        "label": "Découvrir",
+        "link": "/discover"
+      },
+      {
+        "label": "Profil",
+        "link": "/profile"
+      },
+      {
+        "label": "Tag",
+        "link": "/tag"
+      },
+      {
+        "label": "Aperçus",
+        "link": "/insights"
+      },
+      {
+        "label": "Musigraph",
+        "link": "/musigraph"
+      }
+    ],
+    "secondary": [
+      {
+        "label": "Plans",
+        "link": "/plans"
+      },
+      {
+        "label": "À propos",
+        "link": "/about"
+      }
+    ]
+  }
+}

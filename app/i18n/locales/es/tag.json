@@ -1,0 +1,41 @@
+{
+  "navItems": [
+    {
+      "label": "Buscar",
+      "link": "/tag/search"
+    },
+    {
+      "label": "Panel de Control",
+      "link": "/tag/dashboard"
+    },
+    {
+      "label": "Catálogos",
+      "link": "/tag/catalogs"
+    },
+    {
+      "label": "Usuarios",
+      "link": "/tag/users"
+    },
+    {
+      "label": "Clientes",
+      "link": "/tag/clients"
+    },
+    {
+      "label": "Ingestas",
+      "link": "/tag/ingestions"
+    },
+    {
+      "label": "Estadísticas de Ingesta",
+      "link": "/tag/ingestion-statistics"
+    },
+    {
+      "label": "Estadísticas",
+      "link": "/tag/statistics"
+    }
+  ],
+  "search": {
+    "tagInput": {
+      "placeholder": "Actualmente no hay etiquetas seleccionadas"
+    }
+  }
+}

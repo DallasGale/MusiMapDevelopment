@@ -1,0 +1,36 @@
+{
+  "navItems": {
+    "primary": [
+      {
+        "label": "Descubrir",
+        "link": "/discover"
+      },
+      {
+        "label": "Perfil",
+        "link": "/profile"
+      },
+      {
+        "label": "Etiquetar",
+        "link": "/tag"
+      },
+      {
+        "label": "Perspectivas",
+        "link": "/insights"
+      },
+      {
+        "label": "Musigraph",
+        "link": "/musigraph"
+      }
+    ],
+    "secondary": [
+      {
+        "label": "Planes",
+        "link": "/plans"
+      },
+      {
+        "label": "Acerca de",
+        "link": "/about"
+      }
+    ]
+  }
+}

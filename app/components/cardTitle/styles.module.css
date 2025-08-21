@@ -1,0 +1,6 @@
+.title {
+  border-bottom: var(--card-border);
+  padding: var(--space-8) 0;
+  color: var(--color-grey);
+  width: 100%;
+}

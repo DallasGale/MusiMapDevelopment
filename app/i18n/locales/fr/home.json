@@ -1,0 +1,9 @@
+{
+  "text": {
+    "headline": "C'est ce que vous écoutez",
+    "paragraph": "Téléchargez un lien ou une chanson (moins de 10Mo et 10 minutes) pour analyser son ambiance, son genre, son cas d'usage, ses BPM, sa tonalité et plus encore.",
+    "upload": {
+      "placeholder": "Collez un lien de chanson (ex. Spotify, Apple Music, YouTube)"
+    }
+  }
+}

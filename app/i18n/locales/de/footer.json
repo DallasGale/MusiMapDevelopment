@@ -1,0 +1,93 @@
+{
+  "navItems": [
+    {
+      "heading": "Funktionen",
+      "items": [
+        {
+          "label": "Entdecken",
+          "link": "/todo"
+        },
+        {
+          "label": "Profil",
+          "link": "/todo"
+        },
+        {
+          "label": "Tag",
+          "link": "/tag"
+        },
+        {
+          "label": "Einblicke",
+          "link": "/todo"
+        }
+      ]
+    },
+    {
+      "heading": "Über uns",
+      "items": [
+        {
+          "label": "Pläne",
+          "link": "/todo"
+        },
+        {
+          "label": "Unsere Geschichte",
+          "link": "/todo"
+        },
+        {
+          "label": "Presse",
+          "link": "/todo"
+        }
+      ]
+    },
+    {
+      "heading": "Verbinden",
+      "items": [
+        {
+          "label": "Instagram",
+          "link": "/todo"
+        },
+        {
+          "label": "YouTube",
+          "link": "/todo"
+        },
+        {
+          "label": "LinkedIn",
+          "link": "/todo"
+        }
+      ]
+    },
+    {
+      "heading": "Andere",
+      "items": [
+        {
+          "label": "Team",
+          "link": "/todo"
+        },
+        {
+          "label": "Jobs",
+          "link": "/todo"
+        },
+        {
+          "label": "Ressourcen",
+          "link": "/todo"
+        }
+      ]
+    },
+    {
+      "heading": "Kontakt",
+      "items": [
+        {
+          "label": "Anfragen",
+          "link": "/todo"
+        },
+        {
+          "label": "contact@musimap.com",
+          "link": "mailto:contact@musimap.com"
+        },
+        {
+          "label": "+61 04 505 625",
+          "link": "tel:+6104505625"
+        }
+      ]
+    }
+  ]
+}

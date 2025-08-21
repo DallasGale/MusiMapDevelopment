@@ -1,0 +1,7 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  gap: var(--space-18);
+  margin-top: var(--space-40);
+}

@@ -1,0 +1,93 @@
+{
+  "navItems": [
+    {
+      "heading": "Características",
+      "items": [
+        {
+          "label": "Descubrir",
+          "link": "/todo"
+        },
+        {
+          "label": "Perfil",
+          "link": "/todo"
+        },
+        {
+          "label": "Etiquetar",
+          "link": "/tag"
+        },
+        {
+          "label": "Perspectivas",
+          "link": "/todo"
+        }
+      ]
+    },
+    {
+      "heading": "Acerca de",
+      "items": [
+        {
+          "label": "Planes",
+          "link": "/todo"
+        },
+        {
+          "label": "Nuestra Historia",
+          "link": "/todo"
+        },
+        {
+          "label": "Prensa",
+          "link": "/todo"
+        }
+      ]
+    },
+    {
+      "heading": "Conectar",
+      "items": [
+        {
+          "label": "Instagram",
+          "link": "/todo"
+        },
+        {
+          "label": "YouTube",
+          "link": "/todo"
+        },
+        {
+          "label": "LinkedIn",
+          "link": "/todo"
+        }
+      ]
+    },
+    {
+      "heading": "Otros",
+      "items": [
+        {
+          "label": "Equipo",
+          "link": "/todo"
+        },
+        {
+          "label": "Empleos",
+          "link": "/todo"
+        },
+        {
+          "label": "Recursos",
+          "link": "/todo"
+        }
+      ]
+    },
+    {
+      "heading": "Contacto",
+      "items": [
+        {
+          "label": "Consultas",
+          "link": "/todo"
+        },
+        {
+          "label": "contact@musimap.com",
+          "link": "mailto:contact@musimap.com"
+        },
+        {
+          "label": "+61 04 505 625",
+          "link": "tel:+6104505625"
+        }
+      ]
+    }
+  ]
+}

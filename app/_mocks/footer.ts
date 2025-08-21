@@ -1,0 +1,93 @@
+const navItems = [
+  {
+    heading: "Features",
+    items: [
+      {
+        label: "Discover",
+        link: "/todo",
+      },
+      {
+        label: "Profile",
+        link: "/todo",
+      },
+      {
+        label: "Tag",
+        link: "/tag",
+      },
+      {
+        label: "Insights",
+        link: "/todo",
+      },
+    ],
+  },
+  {
+    heading: "About",
+    items: [
+      {
+        label: "Plans",
+        link: "/todo",
+      },
+      {
+        label: "Our Story",
+        link: "/todo",
+      },
+      {
+        label: "Press",
+        link: "/todo",
+      },
+    ],
+  },
+  {
+    heading: "Connect",
+    items: [
+      {
+        label: "Instagram",
+        link: "/todo",
+      },
+      {
+        label: "YouTube",
+        link: "/todo",
+      },
+      {
+        label: "LinkedIn",
+        link: "/todo",
+      },
+    ],
+  },
+  {
+    heading: "Other",
+    items: [
+      {
+        label: "Team",
+        link: "/todo",
+      },
+      {
+        label: "Jobs",
+        link: "/todo",
+      },
+      {
+        label: "Resources",
+        link: "/todo",
+      },
+    ],
+  },
+  {
+    heading: "Contact",
+    items: [
+      {
+        label: "Enquiries",
+        link: "/todo",
+      },
+      {
+        label: "contact@musimap.com",
+        link: "mailto:contact@musimap.com",
+      },
+      {
+        label: "+61 04 505 625",
+        link: "tel:+6104505625",
+      },
+    ],
+  },
+];
+
+export default navItems;

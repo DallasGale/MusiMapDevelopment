@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-12);
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--space-12);
+}
+
+.perPage {
+  align-items: center;
+  display: flex;
+  gap: var(--space-4);
+}
+
+.controls {
+  display: flex;
+  gap: var(--space-4);
+}

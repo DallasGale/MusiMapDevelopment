@@ -1,0 +1,41 @@
+{
+  "navItems": [
+    {
+      "label": "Rechercher",
+      "link": "/tag/search"
+    },
+    {
+      "label": "Tableau de bord",
+      "link": "/tag/dashboard"
+    },
+    {
+      "label": "Catalogues",
+      "link": "/tag/catalogs"
+    },
+    {
+      "label": "Utilisateurs",
+      "link": "/tag/users"
+    },
+    {
+      "label": "Clients",
+      "link": "/tag/clients"
+    },
+    {
+      "label": "Ingestions de données",
+      "link": "/tag/ingestions"
+    },
+    {
+      "label": "Statistiques d'ingestion",
+      "link": "/tag/ingestion-statistics"
+    },
+    {
+      "label": "Statistiques",
+      "link": "/tag/statistics"
+    }
+  ],
+  "search": {
+    "tagInput": {
+      "placeholder": "Aucun tag sélectionné actuellement"
+    }
+  }
+}

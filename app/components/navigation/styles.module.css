@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  gap: var(--space-40);
+  flex-wrap: wrap;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  flex-wrap: wrap;
+  gap: var(--space-40);
+}
+
+.navItem {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  font-size: var(--font-size-20);
+  color: var(--text-color);
+  transition: var(--button-transition);
+  &:hover {
+    transition: var(--button-transition);
+  }
+}
+.active {
+  color: var(--text-color-highlight);
+  transition: var(--button-transition);
+}

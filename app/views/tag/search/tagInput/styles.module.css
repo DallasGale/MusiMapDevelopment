@@ -1,0 +1,12 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-12);
+  justify-content: space-between;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+}

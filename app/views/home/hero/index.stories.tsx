@@ -6,7 +6,7 @@ const meta = {
   title: "Views / Home / Hero",
   component: ComponentToTest,
   parameters: {
-    layout: "padded",
+    layout: "centred",
   },
   tags: ["autodocs"],
   args: {

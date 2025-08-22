@@ -1,0 +1,20 @@
+.belowFold {
+  background-color: var(--background);
+  padding: var(--space-180) 0;
+  position: relative;
+  z-index: 1;
+}
+
+.content {
+  max-width: var(--max-page-content);
+  display: grid;
+  grid-template-columns: 390px minmax(var(--analysis-max-width), 1fr);
+  gap: 60px;
+  margin-inline: auto;
+  position: relative;
+}
+
+.subscribe {
+  position: sticky;
+  top: 100px;
+}

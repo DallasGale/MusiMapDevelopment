@@ -18,6 +18,7 @@
   --gradient-color-6: #4bc345;
   --gradient-color-7: #ff9500;
   --gradient-blur: 60px;
+  --gradient-blur-small: 30px;
 
   --color-light-grey: #c7c7c7;
   --color-grey: #8c8c8c;
@@ -85,9 +86,9 @@
   --analysis-left-column-width: 390px;
   --analysis-max-column-width: 332px;
   --analysis-column-gutter: 8px;
-  --analysis-max-width: 1200px;
+  --analysis-max-width: 1390px;
 
-  --emotion-max-width: 1247px;
+  /* --emotion-max-width: 1390px; */
   --emotion-max-text-width: 833px;
 
   --upload-input-height: 80px;
@@ -149,61 +150,4 @@ ol {
   html {
     color-scheme: dark;
   }
-}
-
-/* #storybook-root {
-  width: 100%;
-} */
-
-@keyframes rotate {
-  0% {
-    transform: scale(20) rotate(0deg);
-    transform-origin: center center;
-  }
-  100% {
-    transform: scale(20) rotate(360deg);
-    transform-origin: center center;
-  }
-}
-.gradient-container {
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -2;
-}
-.gradient {
-  animation: rotate 10s forwards infinite linear;
-  transform-origin: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: conic-gradient(
-    var(--gradient-color-1),
-    var(--gradient-color-2),
-    var(--gradient-color-3),
-    var(--gradient-color-4),
-    var(--gradient-color-5),
-    var(--gradient-color-6),
-    var(--gradient-color-7),
-    var(--gradient-color-1)
-  );
-}
-
-.blur {
-  background-color: var(--background);
-  width: 100%;
-  height: 100%;
-  filter: blur(var(--gradient-blur));
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
 }

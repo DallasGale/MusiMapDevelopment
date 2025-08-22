@@ -3,12 +3,11 @@
   font-size: 20px;
   font-weight: var(--ff-bold);
   line-height: 100%;
-  /* text-transform: capitalize; */
 }
 .display2 {
   font-family: var(--font-family);
   font-size: 32px;
-  font-weight: var(--ff-semi-bold);
+  font-weight: var(--ff-semi);
   line-height: 120%;
 }
 .display3 {
@@ -21,7 +20,7 @@
 .headline1 {
   font-family: var(--font-family);
   font-size: 48px;
-  font-weight: var(--ff-semi-bold);
+  font-weight: var(--ff-semi);
   line-height: 100%;
 }
 
@@ -29,6 +28,13 @@
   font-family: var(--font-family);
   font-size: 28px;
   font-weight: var(--ff-regular);
+  line-height: 120%;
+}
+
+.headline3 {
+  font-family: var(--font-family);
+  font-size: 70px;
+  font-weight: var(--ff-semi);
   line-height: 120%;
 }
 

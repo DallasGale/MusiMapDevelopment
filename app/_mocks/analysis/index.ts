@@ -82,11 +82,7 @@ export const stats = [
     value: 68,
   },
   {
-    label: "acoustic attributes",
-    value: 9,
-  },
-  {
-    label: "acoustic attributes",
-    value: 9,
+    label: "moods",
+    value: 59,
   },
 ];

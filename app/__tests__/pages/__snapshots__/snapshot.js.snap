@@ -1,40 +1,65 @@
 // Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`Home Page Snaphot renders home page unchanged in dutch 1`] = `
-{
-  "$$typeof": Symbol(react.transitional.element),
-  "_owner": null,
-  "_store": {},
-  "key": null,
-  "props": {
-    "children": "Ontdek een constellatie van klankintelligentie",
-  },
-  "type": "h1",
-}
+exports[`Home Page Language-Specific Snapshots renders home page with Duthc translations: home-page-dutch-h1 1`] = `
+<h1
+  class="headline1"
+>
+  Dit is wat je luistert
+</h1>
 `;
 
-exports[`Home Page Snaphot renders home page unchanged in english 1`] = `
-{
-  "$$typeof": Symbol(react.transitional.element),
-  "_owner": null,
-  "_store": {},
-  "key": null,
-  "props": {
-    "children": "Explore a Constellation of Sound Intelligence",
-  },
-  "type": "h1",
-}
+exports[`Home Page Language-Specific Snapshots renders home page with Duthc translations: home-page-dutch-h2 1`] = `
+<h2
+  class="headline2"
+>
+  Upload een link of nummer (onder 10MB en 10 minuten) om de stemming, het genre, de gebruikscase, BPM, toonsoort en meer te analyseren.
+</h2>
 `;
 
-exports[`Home Page Snaphot renders home page unchanged in spanish 1`] = `
-{
-  "$$typeof": Symbol(react.transitional.element),
-  "_owner": null,
-  "_store": {},
-  "key": null,
-  "props": {
-    "children": "Explora una constelación de inteligencia sonora",
-  },
-  "type": "h1",
-}
+exports[`Home Page Language-Specific Snapshots renders home page with English translations: home-page-english-h1 1`] = `
+<h1
+  class="headline1"
+>
+  This is what you listen to
+</h1>
+`;
+
+exports[`Home Page Language-Specific Snapshots renders home page with English translations: home-page-english-h2 1`] = `
+<h2
+  class="headline2"
+>
+  Upload a link or song (under 10MB and 10 minutes) to analyze its mood, genre, use case, BPM, key, and more.
+</h2>
+`;
+
+exports[`Home Page Language-Specific Snapshots renders home page with French translations: home-page-french-h1 1`] = `
+<h1
+  class="headline1"
+>
+  C'est ce que vous écoutez
+</h1>
+`;
+
+exports[`Home Page Language-Specific Snapshots renders home page with French translations: home-page-french-h2 1`] = `
+<h2
+  class="headline2"
+>
+  Téléchargez un lien ou une chanson (moins de 10Mo et 10 minutes) pour analyser son ambiance, son genre, son cas d'usage, ses BPM, sa tonalité et plus encore.
+</h2>
+`;
+
+exports[`Home Page Language-Specific Snapshots renders home page with Spanish translations: home-page-spanish-h1 1`] = `
+<h1
+  class="headline1"
+>
+  Esto es lo que escuchas
+</h1>
+`;
+
+exports[`Home Page Language-Specific Snapshots renders home page with Spanish translations: home-page-spanish-h2 1`] = `
+<h2
+  class="headline2"
+>
+  Sube un enlace o canción (menos de 10MB y 10 minutos) para analizar su estado de ánimo, género, caso de uso, BPM, clave y más.
+</h2>
 `;

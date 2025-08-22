@@ -20,7 +20,7 @@ const Emotion = () => {
           <p className="display3">
             Using proprietary algorithms trained on expert-annotated metadata,
             Musimap decodes the emotional, contextual, and semantic layers of
-            sound – enabling businesses to deliver more intelligent, intuitive,
+            sound - enabling businesses to deliver more intelligent, intuitive,
             and human-centered audio experiences.
           </p>
           <SecondaryButton label="Find out more" onClick={() => null} />

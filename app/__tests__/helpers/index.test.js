@@ -1,6 +1,6 @@
 import { totalPages, pageRange, translate } from "@app/_helpers/";
 import { describe, expect } from "@jest/globals";
-import { translations } from "../../_mocks/translations";
+import { homePageTranslations } from "../../_mocks/translations";
 
 describe("totalPages()", () => {
   it("should return the total paginated pages", () => {
@@ -26,17 +26,5 @@ describe("pageRange()", () => {
   });
   it("should return the range of rows for the given page", () => {
     expect(pageRange(2, 8)).toBe("9-16");
-  });
-});
-
-describe("translate()", () => {
-  it("should return the english word", () => {
-    expect(translate(translations.en, "hello")).toBe("hello");
-  });
-  it("should return the dutch word", () => {
-    expect(translate(translations.es, "hello")).toBe("hola");
-  });
-  it("should return the spanish word", () => {
-    expect(translate(translations.de, "hello")).toBe("hallo");
   });
 });

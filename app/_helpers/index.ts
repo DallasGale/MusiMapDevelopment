@@ -8,16 +8,6 @@ export function pageRange(currentPage: number, limit: number): string {
   return `${start}-${end}`;
 }
 
-export function translate(
-  translation: Record<string, string>,
-  word: string,
-): string {
-  if (translation[word]) {
-    return translation[word];
-  }
-  return word;
-}
-
 export const urlRegex =
   /^https?:\/\/(?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b(?:[-a-zA-Z0-9()@:%_\+.~#?&\/=]*)$/;
 
